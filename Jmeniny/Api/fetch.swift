@@ -16,9 +16,7 @@ class NameViewModel: ObservableObject {
                     guard let data = data else { return }
             do {
                 self.jmeniny = try JSONDecoder().decode(ApiResponse.self, from: data)
-                let encoded = try JSONEncoder().encode(data)
-                print(encoded)
-                UserDefaults(suiteName: "group.cz.jaroslavhejny.jmeniny")?.set(encoded, forKey: "jmeninyData")
+                UserDefaults(suiteName: "group.cz.jaroslavhejny.jmeniny")?.set(data, forKey: "jmeninyData")
             } catch {
                 print("❌ Chyba dekódování JSONu:", error)
             }

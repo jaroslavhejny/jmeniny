@@ -41,3 +41,9 @@ struct JmeninyWidget: Widget {
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }
+
+#Preview(as: .systemMedium, widget: {
+    JmeninyWidget()
+}, timeline: {
+    JmeninyEntry(date: Date(), jmeninyData: nil)
+})

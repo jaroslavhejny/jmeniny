@@ -49,7 +49,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				JmeninyWidgetView_Previews.swift,
 			);
 			target = A43420E82D85030E0094B69C /* Jmeniny-widgetExtension */;
 		};
@@ -61,16 +60,6 @@
 			target = A43420E82D85030E0094B69C /* Jmeniny-widgetExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		A43421102D85122D0094B69C /* Exceptions for "Jmeniny-widget" folder in "Copy Bundle Resources" phase from "Jmeniny-widgetExtension" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = A43420E72D85030E0094B69C /* Resources */;
-			membershipExceptions = (
-				JmeninyWidgetView_Previews.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A43420CE2D84F7CD0094B69C /* Jmeniny */ = {
@@ -85,7 +74,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				A43421002D85030E0094B69C /* Exceptions for "Jmeniny-widget" folder in "Jmeniny-widgetExtension" target */,
-				A43421102D85122D0094B69C /* Exceptions for "Jmeniny-widget" folder in "Copy Bundle Resources" phase from "Jmeniny-widgetExtension" target */,
 			);
 			path = "Jmeniny-widget";
 			sourceTree = "<group>";
