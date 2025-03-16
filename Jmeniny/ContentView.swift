@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var viewModel = NameViewModel()
-    
     var body: some View {
         VStack {
             Text("\(viewModel.jmeniny?.dayNumber ?? ""). \(viewModel.jmeniny?.month.genitive ?? "") ")

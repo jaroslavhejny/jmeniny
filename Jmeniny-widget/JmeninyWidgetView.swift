@@ -18,7 +18,7 @@ struct JmeninyWidgetView: View {
                 .font(.headline)
                 .padding()
             Text("Datum: \(entry.jmeninyData?.date ?? "")")
-            Text("\(entry.jmeninyData?.dayInWeek ?? "den") \(entry.jmeninyData?.dayNumber ?? "")")
+            Text("\(entry.jmeninyData?.dayInWeek ?? "den")")
                 .font(.subheadline)
         }
         .widgetURL(URL(string: "your-app-url://")) // Můžeš přidat URL, která otevře aplikaci při kliknutí
