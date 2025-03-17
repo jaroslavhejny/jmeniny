@@ -45,5 +45,5 @@ struct JmeninyWidget: Widget {
 #Preview(as: .systemMedium, widget: {
     JmeninyWidget()
 }, timeline: {
-    JmeninyEntry(date: Date(), jmeninyData: nil)
+    JmeninyEntry(date: Date(), jmeninyData: ApiResponse(date: "2025-03-16", dayNumber: "16", dayInWeek: "pondělí", monthNumber: "3", month: MonthStructure(nominative: "březen", genitive: "března"), year: "2025", name: "Adéla", isHoliday: false, holidayName: nil))
 })
